@@ -1,2 +1,14 @@
 language: java
-install: ant test
+
+OPTIONAL Install apt addons
+OPTIONAL Install cache components
+before_install: instalar paquetes del SO necesarios para la construcción del proyecto
+install: instalar las dependencias (librerías) que sean necesarias para la construcción del proyecto
+before_script
+script: ejecutar el script de construcción del proyecto.
+OPTIONAL before_cache: para limpiar la caché
+after_success or after_failure: after_success se ejecutará si la construcción se realiza correctamente como generar la documentación. after_failure se ejecutará en caso de que la construcción falle.
+OPTIONAL before_deploy
+OPTIONAL deploy: desplegar la aplicación a una plataforma integrada con Travis CI como Heroku o Engine Yard.
+OPTIONAL after_deploy
+after_script
