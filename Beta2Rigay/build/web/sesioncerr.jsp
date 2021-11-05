@@ -1,8 +1,3 @@
-<%-- 
-    Document   : sesioncerr
-    Created on : 10/03/2021, 02:25:13 PM
-    Author     : josue
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

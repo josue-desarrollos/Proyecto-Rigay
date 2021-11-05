@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Modelos;
 
 public class Usuarios {
@@ -11,8 +7,7 @@ public class Usuarios {
 
     public Usuarios(String nombre, String pass) {
         this.nombre = nombre;
-        this.pass = pass;
-        
+        this.pass = pass; 
     }
 
     public String getNombre() {
@@ -29,9 +24,6 @@ public class Usuarios {
 
     public void setPass(String pass) {
         this.pass = pass;
-    }
-
-    
-    
+    } 
 }
 

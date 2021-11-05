@@ -1,8 +1,3 @@
-<%-- 
-    Document   : login
-    Created on : 2/03/2021, 08:42:45 PM
-    Author     : Manu
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
