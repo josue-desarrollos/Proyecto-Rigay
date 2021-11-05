@@ -1,4 +1,3 @@
-
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="Controladores.Conectar"%>
@@ -40,7 +39,7 @@
                 <th><%= rs.getString(4) %></th>
                 <th><%= rs.getLong(5) %></th>
                 <th>
-                     <a href="editar.jsp?Nombre=<%=rs.getString(1)%>">
+                    <a href="editar.jsp?Nombre=<%=rs.getString(1)%>">
                     <img src="imiconos/editar.png" width="30" height="30"> 
                     </a>
                     <a href="eliminar.jsp?Nombre=<%=rs.getString(1)%>">
